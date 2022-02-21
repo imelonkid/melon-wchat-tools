@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="melon-wchat-service" />
+        <module name="melon-wchat-starter" />
+        <module name="melon-wchat-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cn.melon.wchat.web" target="1.5" />
+      <module name="melon-wchat-service" target="1.8" />
+      <module name="melon-wchat-starter" target="1.8" />
+      <module name="melon-wchat-tools" target="1.8" />
+      <module name="melon-wchat-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
