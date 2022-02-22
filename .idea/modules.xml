@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/melon-wchat-service/melon-wchat-service.iml" filepath="$PROJECT_DIR$/melon-wchat-service/melon-wchat-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melon-wchat-application/melon-wchat-application.iml" filepath="$PROJECT_DIR$/melon-wchat-application/melon-wchat-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melon-wchat-common/melon-wchat-common.iml" filepath="$PROJECT_DIR$/melon-wchat-common/melon-wchat-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melon-wchat-domain/melon-wchat-domain.iml" filepath="$PROJECT_DIR$/melon-wchat-domain/melon-wchat-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/melon-wchat-starter/melon-wchat-starter.iml" filepath="$PROJECT_DIR$/melon-wchat-starter/melon-wchat-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/melon-wchat-tools.iml" filepath="$PROJECT_DIR$/.idea/melon-wchat-tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/melon-wchat-web/melon-wchat-web.iml" filepath="$PROJECT_DIR$/melon-wchat-web/melon-wchat-web.iml" />

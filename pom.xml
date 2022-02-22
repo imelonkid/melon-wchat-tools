@@ -7,7 +7,9 @@
 		<module>melon-wchat-web</module>
 		<module>melon-wchat-service</module>
 		<module>melon-wchat-starter</module>
-	</modules>
+        <module>melon-wchat-domain</module>
+        <module>melon-wchat-common</module>
+    </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -34,13 +36,29 @@
 			</dependency>
             <dependency>
                 <groupId>cn.melon</groupId>
-                <artifactId>melon-wchat-service</artifactId>
+                <artifactId>melon-wchat-application</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>cn.melon</groupId>
                 <artifactId>melon-wchat-starter</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.melon</groupId>
+                <artifactId>melon-wchat-domain</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.melon</groupId>
+                <artifactId>melon-wchat-common</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>1.15</version>
             </dependency>
 		</dependencies>
 	</dependencyManagement>
@@ -55,6 +73,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.10</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
