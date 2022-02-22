@@ -43,7 +43,7 @@ public class Auth {
      * @return 校验结果
      */
     public boolean checkSignature() {
-        return signature.equals(generateEventMessageSignature(token,timestamp,nonce));
+        return signature.equals(generateSignature(token,timestamp,nonce));
     }
 
 
@@ -65,7 +65,7 @@ public class Auth {
      * @param nonce nonce
      * @return str
      */
-    private String generateEventMessageSignature(String token, String timestamp,String nonce) {
+    private String generateSignature(String token, String timestamp,String nonce) {
         String[] array = new String[]{token,timestamp,nonce};
         Arrays.sort(array);
         String s = arrayToDelimitedString(array, "");
