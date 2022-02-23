@@ -12,4 +12,10 @@
     <artifactId>melon-wchat-application</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>cn.melon</groupId>
+            <artifactId>melon-wchat-domain</artifactId>
+        </dependency>
+    </dependencies>
 </project>

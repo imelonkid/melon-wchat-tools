@@ -33,6 +33,7 @@ public class Auth {
      */
     private String echostr;
 
+
     //从官方获取
     private String token = "test";
 
@@ -86,7 +87,7 @@ public class Auth {
         }
         return sb.toString();
     }
-    
+
 
 
 }
